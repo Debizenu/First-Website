@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>navigation></title>
+    <style>
+        nav { display: none; }
+        body.has-nav nav { display: block;
+          width: 100%;
+            height: 100vh;
+            background-color: deeppink;
+        }
+    </style>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+        $('#hamburger').click(function(){
+            $("body").addClass("has-nav");
+        });
+    });</script>
+    
+</head>
+<body >
+    <h1>Navigation</h1>
+ <p id="hamburger">HAMBURGER</p>
+    <nav>
+    <ul>
+        <li>
+            <a href="main.html">Home</a>
+        </li>
+        <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                    <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                    <a href="protfolio.html">Portfolio</a>
+             </li>
+             </ul>
+    </nav>
+    <p>Vivamus magna diam, scelerisque non est et, convallis blandit risus. Vivamus volutpat enim magna, eget feugiat nulla ultrices vitae. Quisque quis elit et purus fringilla varius in quis purus. Duis rutrum at velit ac congue. Fusce convallis vehicula neque, quis blandit erat pharetra placerat. Morbi ultrices mauris felis, vel scelerisque mauris fermentum nec. Praesent varius dolor at mi pretium egestas. Nulla eget risus congue, maximus elit quis, gravida sem. Vivamus lacinia tincidunt dapibus. Donec dignissim justo eu mauris mattis vulputate. Sed ornare diam id massa iaculis blandit. Aenean nisl metus, lacinia vitae arcu in, feugiat scelerisque dolor. Etiam arcu ante, venenatis in lacus eget, sollicitudin vestibulum odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+</p>
+</body></html>
